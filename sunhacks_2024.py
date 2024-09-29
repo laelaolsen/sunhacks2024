@@ -1,10 +1,14 @@
+import os
+import sys
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
 import pygame
 import random
 import math
 import numpy as np
 pygame.init()
 
-file_base = "C:/Users/laela/Downloads/sunhacks_2024/sunhacks_"
+file_base = "./assets/sunhacks_"
 
 screen_width = 1200
 screen_height = 700
